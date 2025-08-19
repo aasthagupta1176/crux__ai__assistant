@@ -11,7 +11,7 @@ import geminiResponse from "./gemini.js";
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173", // change this later to your frontend domain on deploy
+    origin: "https://curx-ai-assistant1.onrender.com", // change this later to your frontend domain on deploy
     credentials: true
 }));
 
